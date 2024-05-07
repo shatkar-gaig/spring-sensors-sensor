@@ -4,6 +4,7 @@ metadata:
   name: spring-sensors-sensor
   labels:
     apps.tanzu.vmware.com/workload-type: web
+  namespace: tap-workload
 spec:
   source:
     git:
